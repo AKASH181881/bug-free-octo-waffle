@@ -5,6 +5,10 @@ state=True                                                    #variable for if..
 while_loop=False                                              #variable for while staetment
 inp=open('testrun.txt','r') 
 for line in inp: 
+
+
+
+    
     i+=1
     if('//' in line):                                         #removing comments in scream file
         pos=line.find('//')
